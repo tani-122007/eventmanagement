@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#090b0a" />
+    <meta
+      name="description"
+      content="Join Parallax, discover the games, and register for your favourites."
+    />
+    <title>Parallax — Inter-College Fest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="em.css" />
+  </head>
+  <body>
+    <main class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="Parallax home">
+          <span class="brand-mark" aria-hidden="true">P<span>.</span></span>
+          <span class="brand-name">PARALLAX</span>
+        </a>
+        <div class="topbar-note">
+          <span class="live-dot" aria-hidden="true"></span>
+          <span>REGISTRATIONS ARE OPEN</span>
+        </div>
+        <a class="admin-shortcut" href="#portal" id="admin-shortcut">
+          <span class="admin-icon" aria-hidden="true">↗</span>
+          Admin portal
+        </a>
+      </header>
+
+      <section class="hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span>THE INTER-COLLEGE FEST</span><i></i> 2026</div>
+          <h1>Make some<br />noise<span class="accent-mark">.</span></h1>
+          <p class="hero-description">
+            Big energy. New friends. Your game, your moment.
+            Find your people and take your place at Parallax.
+          </p>
+
+          <div class="event-details">
+            <div class="detail-icon calendar-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <rect x="3.5" y="5.5" width="17" height="15" rx="2.5"></rect>
+                <path d="M7.5 3.5v4M16.5 3.5v4M3.5 10h17"></path>
+              </svg>
+            </div>
+            <div>
+              <span class="detail-label">SAVE YOUR SPOT</span>
+              <strong>Event date to be announced</strong>
+            </div>
+            <span class="detail-divider"></span>
+            <div class="detail-location">
+              <span class="detail-label">WHO CAN JOIN</span>
+              <strong>College students, everywhere</strong>
+            </div>
+          </div>
+
+          <div class="games-preview">
+            <div class="preview-heading">
+              <span>FIND YOUR GAME</span>
+              <span class="preview-count">01 — 06</span>
+            </div>
+            <div class="preview-games" aria-label="Featured games">
+              <span><b>01</b> Hackathon</span>
+              <span><b>02</b> Coding Sprint</span>
+              <span><b>03</b> Debugging Duel</span>
+              <span><b>04</b> UI/UX Design</span>
+              <span><b>05</b> Tech Quiz</span>
+              <span><b>06</b> AI Idea Pitch</span>
+            </div>
+          </div>
+          <div class="hero-footer">
+            <span>SHOW UP. PLAY BIG. REMEMBER IT.</span>
+            <span class="hero-footer-arrow" aria-hidden="true">↓</span>
+          </div>
+        </div>
+
+        <div class="visual-panel" aria-label="Parallax festival artwork">
+          <div class="visual-stamp stamp-top">PLAY<br />YOUR<br />PART</div>
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="visual-sun"></div>
+          <div class="visual-star star-one" aria-hidden="true">✳</div>
+          <div class="visual-star star-two" aria-hidden="true">✳</div>
+          <div class="visual-ground"></div>
+          <div class="visual-track track-one"></div>
+          <div class="visual-track track-two"></div>
+          <div class="visual-track track-three"></div>
+          <div class="visual-caption">
+            <span>ONE CAMPUS.</span>
+            <span>ALL IN.</span>
+          </div>
+          <div class="visual-number">26</div>
+          <div class="visual-stamp stamp-bottom">YOUR<br />MOVE ↗</div>
+          <span class="visual-side-note">A LITTLE FRIENDLY COMPETITION NEVER HURT</span>
+        </div>
+      </section>
+
+      <section class="portal-section" id="portal">
+        <div class="portal-intro">
+          <span class="section-kicker">GET IN THE GAME</span>
+          <h2>Your next<br />great story <span>starts here.</span></h2>
+          <p>Create your student account, choose the games you want to play, and you’re on the list.</p>
+          <div class="portal-steps">
+            <div><span>01</span><p><strong>Make it official</strong><small>Tell us a little about you.</small></p></div>
+            <div><span>02</span><p><strong>Pick your games</strong><small>Choose what you want to play.</small></p></div>
+            <div><span>03</span><p><strong>We’ll see you there</strong><small>Your spot is saved.</small></p></div>
+          </div>
+        </div>
+
+        <div class="auth-card" id="auth-card">
+          <div id="app" aria-live="polite">
+            <div class="loading-state">Getting things ready<span>…</span></div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <a class="brand footer-brand" href="#" aria-label="Parallax home">
+          <span class="brand-mark" aria-hidden="true">P<span>.</span></span>
+          <span class="brand-name">PARALLAX</span>
+        </a>
+        <span>GOOD GAMES. GREAT PEOPLE. ONE CAMPUS.</span>
+        <a href="#portal">Back to registration ↑</a>
+      </footer>
+    </main>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="em.js"></script>
+  </body>
+</html>
